@@ -1,5 +1,9 @@
 <!-- markdownlint-disable MD046 -->
 
+---
+icon: material/wifi-strength-3
+---
+
 # Introduction
 
 This page is a step by step guide to get Wi-Fi and Bluetooth working on T2 Macs. This guide is also applicable to **iMac19,1** and **iMac19,2**, which are T1 Intel Macs. This guide is NOT applicable for rest T1 and older Intel Macs.
