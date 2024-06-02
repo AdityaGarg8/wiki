@@ -35,7 +35,7 @@ There are 4 methods supported by this script to get firmware for Linux, named as
 
 Run the script on the macOS terminal. After you run the script, it will ask you to choose between 3 methods to move firmware to Linux:
 
-=== "Method 1"
+=== ":material-apple: Method 1"
     **Method 1: Run the same script on Linux**
 
     If you choose this method, unlike **Method 2** and **Method 3**, you need not have any specific dependency already installed on your Mac. So if you don't want to install any additional software on macOS, this method is the only option for you.
@@ -44,7 +44,7 @@ Run the script on the macOS terminal. After you run the script, it will ask you 
 
     To retrieve the firmware from **EFI** partition in Linux, you shall have to run the same script on Linux. You have 2 options do so, described in detail in [On Linux](#on-linux) section.
 
-=== "Method 2"
+=== ":material-apple: Method 2"
     **Method 2: Create a tarball of the firmware and extract it to Linux**
 
     If you choose this method, the script will install the following dependencies, if missing, on macOS:
@@ -57,7 +57,7 @@ Run the script on the macOS terminal. After you run the script, it will ask you 
 
     Now you have to extract the firmware in the tarball to Linux. The procedure has been described in detail in [On Linux](#on-linux) section.
 
-=== "Method 3"
+=== ":material-apple: Method 3"
     **Method 3: Create a Linux specific package which can be installed using a package manager**
 
     If you choose this method, the script will install the following dependencies, if missing, on macOS:
@@ -78,7 +78,7 @@ Run the script on the macOS terminal. After you run the script, it will ask you 
 
 Once you have run the script on macOS, depending on the method you chose, the steps to be followed on Linux are described below:
 
-=== "Method 1"
+=== ":material-linux: Method 1"
     **Method 1: Run the same script on Linux**
 
     Now we need to retrieve the firmware from the **EFI** partition. You further have 2 options to do so:
@@ -93,7 +93,7 @@ Once you have run the script on macOS, depending on the method you chose, the st
 
         After you run the script, you have to choose the **"Retrieve the firmware from EFI"** option. After choosing that option, the script will install the firmware on Linux.
 
-        !!! note
+        !!! note 
 
             Replace `/path/to/firmware.sh` with the actual path of the script. For example, if the script is in the Downloads folder in Linux, command to be run would be `bash $HOME/Downloads/firmware.sh`
 
@@ -112,7 +112,7 @@ Once you have run the script on macOS, depending on the method you chose, the st
 
         This option shall be useful if you are unable to copy the script to Linux.
 
-=== "Method 2"
+=== ":material-linux: Method 2"
     **Method 2: Create a tarball of the firmware and extract it to Linux**
 
     Now we shall extract the tarball of the firmware which was saved in the **Downloads** folder in macOS as `firmware.tar`. In order to do so, copy `firmware.tar` to Linux and extract the firmware to `/lib/firmware/brcm` by running:
@@ -135,7 +135,7 @@ Once you have run the script on macOS, depending on the method you chose, the st
     sudo modprobe hci_bcm4377
     ```
 
-=== "Method 3"
+=== ":material-linux: Method 3"
     **Method 3: Create a Linux specific package which can be installed using a package manager**
 
     Now we have to install the firmware package which was saved in the **Downloads** folder in macOS. Copy the package to Linux and follow the instructions below, depending on whether you use `apt`, `dnf` or `rpm`:
