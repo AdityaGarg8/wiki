@@ -1,7 +1,8 @@
-<!-- markdownlint-disable MD046 -->
 ---
 icon: material/wifi-strength-3
 ---
+
+<!-- markdownlint-disable MD046 -->
 
 # Introduction
 
