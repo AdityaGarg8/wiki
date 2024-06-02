@@ -31,7 +31,7 @@ There are 4 methods supported by this script to get firmware for Linux, named as
 !!! Tip "macOS Removed after installing Linux"
     In case you have removed macOS after installing Linux, and need the firmware, **Method 4** is the only option for you.
 
-### On macOS
+### On macOS :material-apple:
 
 Run the script on the macOS terminal. After you run the script, it will ask you to choose between 3 methods to move firmware to Linux:
 
@@ -74,7 +74,7 @@ Run the script on the macOS terminal. After you run the script, it will ask you 
 
     Now you have to install the package in Linux using your package manager. The procedure has been described in detail in [On Linux](#on-linux) section.
 
-### On Linux
+### On Linux :material-linux:
 
 Once you have run the script on macOS, depending on the method you chose, the steps to be followed on Linux are described below:
 
@@ -182,7 +182,7 @@ Once you have run the script on macOS, depending on the method you chose, the st
 
             Replace `/path/to/firmware_package.pkg.tar.zst` with the actual path of the package. For example, if `apple-firmware-14.5-1-any.pkg.tar.zst` was created in macOS and has been copied to the Downloads folder in Linux, command to be run would be `sudo pacman -U $HOME/Downloads/apple-firmware-14.5-1-any.pkg.tar.zst`
 
-=== "Method 4"
+=== ":material-linux: Method 4"
     **Method 4: Download a macOS Recovery Image from Apple and extract the firmware from there**
 
     !!! warning "Internet connection is required for **Method 4**"
