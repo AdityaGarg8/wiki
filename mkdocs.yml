@@ -47,6 +47,7 @@ plugins:
                 'guides/dkms.md': 'guides/postinstall.md'
     -   search:
             lang: en
+    -   typeset
 
 nav:
     - General:
