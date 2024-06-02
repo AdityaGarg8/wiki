@@ -1,5 +1,6 @@
 {
     "default": true,
+    "header-style": { "style": "atx" },
     "ul-indent": { "indent": 4 },
     "no-multiple-blanks": true,
     "line-length": false,
